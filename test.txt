@@ -1,4 +1,4 @@
-����1
+﻿����1
   private IEnumerator UpdateStage()
         {
             List<NormalSlotInfos> slotInfos = _model.SlotList.GetSlotList(SlotListCategory.POPULAR);
@@ -23,7 +23,5 @@
             yield return null;
         }
 
-
-���⼭ ����
-
-����2 ���� ����
+유저 1이 추가 함
+modifyuser12
