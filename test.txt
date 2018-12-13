@@ -1,0 +1,24 @@
+»ý¼º1
+  private IEnumerator UpdateStage()
+        {
+            List<NormalSlotInfos> slotInfos = _model.SlotList.GetSlotList(SlotListCategory.POPULAR);
+
+            //int levelStepPerSlot = 3;
+            int slotStepPerStage = 5;
+            Debug.Log("LobbyScene::UpdateStage -> user stage is " + User.Me.CurrentStage);
+            int slotStepBaseIndex = (User.Me.CurrentStage - 1) * slotStepPerStage;
+
+            this._model.CurrentSlotCategory = SlotListCategory.POPULAR;
+            for (int i = 0; i < slotStepPerStage; i++)
+            {
+                LobbyLoungeNormalItemGroup slotItem = slotContainer.GetSlotItem(i);
+                if (slotItem == null)
+                {
+                    continue;
+                }
+
+                slotItem.UpdateItem(slotStepBaseIndex + i);
+            }
+
+            yield return null;
+        }
