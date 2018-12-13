@@ -1,4 +1,4 @@
-»ý¼º1
+ï¿½ï¿½ï¿½ï¿½1
   private IEnumerator UpdateStage()
         {
             List<NormalSlotInfos> slotInfos = _model.SlotList.GetSlotList(SlotListCategory.POPULAR);
@@ -23,4 +23,7 @@
             yield return null;
         }
 
-¿©±â¼­ ¼öÁ¤
+
+ï¿½ï¿½ï¿½â¼­ ï¿½ï¿½ï¿½ï¿½
+
+ï¿½ï¿½ï¿½ï¿½2 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
