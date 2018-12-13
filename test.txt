@@ -23,15 +23,5 @@
             yield return null;
         }
 
-
-유저 1이 추가 함
-modifyuser12
-
-다시 유저2 수정
-user modify
-
-
-올린것 모르고 커밋 이내용은 합쳐져야 한다
-
-병합 툴 재시작
+내용 지우고 다시시작
 
