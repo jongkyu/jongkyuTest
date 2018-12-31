@@ -4,5 +4,5 @@ OtherProject
 OtherProject
 OtherProject
 ------------
-OtherProject Add7
+-----------
 OtherProjec
