@@ -1,8 +1,6 @@
 aaaaaaaaaaaa
+------------
+this is main
 bbbbbbbbbbbb
 cccccccccccc
 dddddddddddd
-OtherProject
-------------
------------
-OtherProjec
