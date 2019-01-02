@@ -2,7 +2,11 @@
 aaaaaaaaaaaa
 aaaaaaaaaaaa
 aaaaaaaaaaaa
+<<<<<<< HEAD
 trtertetrete
+=======
+dddddddddd
+>>>>>>> 62042f136cd2cecf17b93c6a7d775dbc834742a6
 aaaaaaaaaaaa
 aaaaaaaaaaaa
 bbbbbbbbbbbbbb
